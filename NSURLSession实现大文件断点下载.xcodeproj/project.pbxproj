@@ -13,6 +13,13 @@
 		301A4C051DB8E4640078DA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301A4C031DB8E4640078DA5A /* Main.storyboard */; };
 		301A4C071DB8E4640078DA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301A4C061DB8E4640078DA5A /* Assets.xcassets */; };
 		301A4C0A1DB8E4640078DA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301A4C081DB8E4640078DA5A /* LaunchScreen.storyboard */; };
+		301A4C171DB8E53C0078DA5A /* ZJProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A4C131DB8E53C0078DA5A /* ZJProgressView.m */; };
+		301A4C181DB8E53C0078DA5A /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = 301A4C141DB8E53C0078DA5A /* 暂停.png */; };
+		301A4C191DB8E53C0078DA5A /* 暂停@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 301A4C151DB8E53C0078DA5A /* 暂停@2x.png */; };
+		301A4C1A1DB8E53C0078DA5A /* 暂停@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 301A4C161DB8E53C0078DA5A /* 暂停@3x.png */; };
+		301A4C1E1DB8EEC90078DA5A /* 开始.png in Resources */ = {isa = PBXBuildFile; fileRef = 301A4C1B1DB8EEC90078DA5A /* 开始.png */; };
+		301A4C1F1DB8EEC90078DA5A /* 开始@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 301A4C1C1DB8EEC90078DA5A /* 开始@2x.png */; };
+		301A4C201DB8EEC90078DA5A /* 开始@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 301A4C1D1DB8EEC90078DA5A /* 开始@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,14 @@
 		301A4C061DB8E4640078DA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		301A4C091DB8E4640078DA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		301A4C0B1DB8E4640078DA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301A4C121DB8E53C0078DA5A /* ZJProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJProgressView.h; sourceTree = "<group>"; };
+		301A4C131DB8E53C0078DA5A /* ZJProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJProgressView.m; sourceTree = "<group>"; };
+		301A4C141DB8E53C0078DA5A /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
+		301A4C151DB8E53C0078DA5A /* 暂停@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停@2x.png"; sourceTree = "<group>"; };
+		301A4C161DB8E53C0078DA5A /* 暂停@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停@3x.png"; sourceTree = "<group>"; };
+		301A4C1B1DB8EEC90078DA5A /* 开始.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始.png"; sourceTree = "<group>"; };
+		301A4C1C1DB8EEC90078DA5A /* 开始@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始@2x.png"; sourceTree = "<group>"; };
+		301A4C1D1DB8EEC90078DA5A /* 开始@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 		301A4BF91DB8E4640078DA5A /* NSURLSession实现大文件断点下载 */ = {
 			isa = PBXGroup;
 			children = (
+				301A4C111DB8E53C0078DA5A /* ZJProgress */,
 				301A4BFD1DB8E4640078DA5A /* AppDelegate.h */,
 				301A4BFE1DB8E4640078DA5A /* AppDelegate.m */,
 				301A4C001DB8E4640078DA5A /* ViewController.h */,
@@ -77,6 +93,21 @@
 				301A4BFB1DB8E4640078DA5A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		301A4C111DB8E53C0078DA5A /* ZJProgress */ = {
+			isa = PBXGroup;
+			children = (
+				301A4C1B1DB8EEC90078DA5A /* 开始.png */,
+				301A4C1C1DB8EEC90078DA5A /* 开始@2x.png */,
+				301A4C1D1DB8EEC90078DA5A /* 开始@3x.png */,
+				301A4C121DB8E53C0078DA5A /* ZJProgressView.h */,
+				301A4C131DB8E53C0078DA5A /* ZJProgressView.m */,
+				301A4C141DB8E53C0078DA5A /* 暂停.png */,
+				301A4C151DB8E53C0078DA5A /* 暂停@2x.png */,
+				301A4C161DB8E53C0078DA5A /* 暂停@3x.png */,
+			);
+			path = ZJProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +167,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301A4C201DB8EEC90078DA5A /* 开始@3x.png in Resources */,
+				301A4C1E1DB8EEC90078DA5A /* 开始.png in Resources */,
+				301A4C1F1DB8EEC90078DA5A /* 开始@2x.png in Resources */,
+				301A4C191DB8E53C0078DA5A /* 暂停@2x.png in Resources */,
 				301A4C0A1DB8E4640078DA5A /* LaunchScreen.storyboard in Resources */,
 				301A4C071DB8E4640078DA5A /* Assets.xcassets in Resources */,
+				301A4C1A1DB8E53C0078DA5A /* 暂停@3x.png in Resources */,
 				301A4C051DB8E4640078DA5A /* Main.storyboard in Resources */,
+				301A4C181DB8E53C0078DA5A /* 暂停.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301A4C021DB8E4640078DA5A /* ViewController.m in Sources */,
+				301A4C171DB8E53C0078DA5A /* ZJProgressView.m in Sources */,
 				301A4BFF1DB8E4640078DA5A /* AppDelegate.m in Sources */,
 				301A4BFC1DB8E4640078DA5A /* main.m in Sources */,
 			);
